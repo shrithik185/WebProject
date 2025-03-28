@@ -1,4 +1,4 @@
-/* Reset default browser styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@ body {
     overflow-x: hidden;
 }
 
-/* Navigation Buttons for Home and Rental */
+
 .nav-buttons {
     display: flex;
     justify-content: center;
@@ -44,7 +44,7 @@ body {
     background-color: #0056b3;
 }
 
-/* Circular clickable logo on top right */
+
 .logo-link {
     position: absolute;
     top: 20px;
@@ -65,7 +65,7 @@ body {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* Tab styles */
+
 .tabs {
     display: flex;
     justify-content: center;
@@ -94,24 +94,24 @@ body {
     padding-top: 40px;
 }
 
-/* Updated Card List Styles for 2-Column Layout */
+
 .card-list {
     display: flex;
-    flex-wrap: wrap; /* Allows the cards to wrap into the next row */
+    flex-wrap: wrap; 
     justify-content: center;
-    gap: 38px; /* Adds space between the cards */
+    gap: 38px; 
     padding: 20px;
 }
 
 .card {
     display: flex;
-    background: white; /* Solid white background for cards */
+    background: white; 
     border-radius: 15px;
     overflow: hidden;
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    width: 48%; /* Adjust width to fit 2 cards per row */
+    width: 48%; 
 }
 
 .card:hover {
@@ -157,32 +157,31 @@ body {
     animation: fadeIn 0.5s ease-in-out;
 }
 
-/* Floating Button Style */
-/* Floating Button Style - Bigger and Bolder */
+
 .floating-btn {
     position: fixed;
     bottom: 20px;
     right: 20px;
     background-color: #ff6600;
     color: white;
-    padding: 20px 30px; /* Increased padding */
+    padding: 20px 30px; 
     border-radius: 50px;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
-    font-size: 18px; /* Increased font size */
-    letter-spacing: 1px; /* Slightly spaced out letters for a bolder effect */
-    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+    font-size: 18px; 
+    letter-spacing: 1px; 
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3); 
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
   
 .floating-btn:hover {
     background-color: #e65c00;
-    transform: scale(1.05); /* Slightly enlarges the button on hover */
+    transform: scale(1.05); 
 }
    
 
-/* Add styles for the circular button on each card */
+
 .card-link-btn {
     position: absolute;
     top: 15px;
@@ -205,23 +204,23 @@ body {
 }
 
 .card {
-    position: relative; /* Make sure the card is the positioning reference */
+    position: relative; 
 }
   
 .report-btn {
-    position: absolute; /* Positioning it absolutely within the card */
-    top: 8px; /* Adjust as necessary */
-    right: 8px; /* Adjust as necessary */
-    padding: 4px 8px; /* Smaller padding */
-    background-color: red; /* Change to desired color */
+    position: absolute; 
+    top: 8px; 
+    right: 8px; 
+    padding: 4px 8px; 
+    background-color: red; 
     color: white;
     text-decoration: none;
     border-radius: 4px;
-    font-size: 12px; /* Smaller font size */
+    font-size: 12px; 
 }
   
 .report-btn:hover {
-    background-color: darkred; /* Change to desired hover color */
+    background-color: darkred; 
 }
   
   

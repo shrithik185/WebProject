@@ -1,4 +1,4 @@
-fetch('/api/product/123')  // Replace with actual API endpoint
+fetch('/api/product/123')  
     .then(response => response.json())
     .then(product => {
         document.querySelector('.product-image img').src = product.image;
